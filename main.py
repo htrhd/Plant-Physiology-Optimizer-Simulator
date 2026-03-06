@@ -390,7 +390,7 @@ def objective_function(x, param_names, test_conditions):
     return evaluate_plant(params, test_conditions)
 
 
-def optimize_plant(n_samples=10000000, n_generations=50000000000000):
+def optimize_plant(n_samples=10000000, n_generations=500):
     param_space = create_parameter_space()
     param_names = list(param_space.keys())
     bounds = [param_space[param] for param in param_names]
