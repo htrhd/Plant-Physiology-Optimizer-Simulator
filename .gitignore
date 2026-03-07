@@ -1,0 +1,13 @@
+# Python environment and cache
+__pycache__/
+*.pyc
+.venv/
+venv/
+env/
+
+# PyCharm specific settings
+.idea/
+
+# Data and OS clutter
+.DS_Store
+*.log
